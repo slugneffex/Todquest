@@ -105,14 +105,14 @@ const HowItWorks = () => {
 
         {/* Popular Categories */}
         <div className="flex gap-8 py-[40px]">
-          <div className="w-[40%]">
+          <div className="w-[25%]">
             <img
               src={popularCategoryImg}
               alt="popularCategoryImg"
-              className="w-[100%] h-[100%]"
+              className="w-[100%] h-full"
             />
           </div>
-          <div className="w-[60%]">
+          <div className="w-[75%]">
             <p className="font-[500] text-[26px] text-[#091431]">
               Popular Categories
             </p>
